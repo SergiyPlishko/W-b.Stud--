@@ -1,0 +1,119 @@
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+.logo-web {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  color: #2196f3;
+}
+.logo-studio {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  color: #000000;
+}
+.nav-link {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  color: #212121;
+}
+.contact-link {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+}
+.title-text {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+}
+.button {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87px;
+}
+.title-info {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  color: #212121;
+}
+.text-info {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  color: #757575;
+}
+.title-menu {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16px;
+  color: #212121;
+}
+.team {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18px;
+  color: #757575;
+}
+.link-info {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+}
+.container {
+  width: 1600;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000;
+}
+.container-2 {
+  width: 1600;
+  padding-left: 215px;
+  padding-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000;
+}
+.container-3 {
+  width: 1170;
+  padding-left: 215px;
+  padding-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000;
+}
+.container-4  {
+  width: 1170px;
+  padding-left: 215px;
+  padding-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000;
+}
+.container-5 {
+  width: 1600;
+  padding-left: 215px;
+  padding-right: 215px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000;
+}
