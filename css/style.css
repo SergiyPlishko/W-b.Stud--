@@ -2,6 +2,9 @@ ul {
   list-style: none;
   text-decoration: none;
 }
+body {
+  border: 1px solid #000;
+}
 .logo-web {
   font-family: 'Raleway';
   font-weight: 700;
@@ -34,12 +37,20 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36px;
+  padding: 10px 32px;
+  display: flex;
+  justify-content: center;
 }
 .button {
+  width: 216px;
+  height: 50px;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  background-color: #188ce8;
 }
 .title-info {
   font-family: 'Roboto';
@@ -61,6 +72,15 @@ ul {
   font-size: 36px;
   line-height: 1.16px;
   color: #212121;
+  display: flex;
+  justify-content: center;
+}
+.title-team {
+  display: flex;
+  justify-content: center;
+}
+.list-team {
+  display: flex;
 }
 .team {
   font-family: 'Roboto';
@@ -83,7 +103,8 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #000;
+  border: none;
+  border-top: 2px solid red;
 }
 .container-2 {
   width: 1600;
@@ -91,7 +112,8 @@ ul {
   padding-right: 215px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #000;
+  border: none;
+  border-top: 2px solid red;
 }
 .container-3 {
   width: 1170;
@@ -99,15 +121,17 @@ ul {
   padding-right: 215px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #000;
+  border: none;
+  border-top: 2px solid red;
 }
-.container-4  {
+.container-4 {
   width: 1170px;
   padding-left: 215px;
   padding-right: 215px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #000;
+  border: none;
+  border-top: 2px solid red;
 }
 .container-5 {
   width: 1600;
@@ -115,5 +139,11 @@ ul {
   padding-right: 215px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #000;
+  border: none;
+  border-top: 2px solid red;
 }
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
