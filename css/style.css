@@ -5,6 +5,11 @@ ul {
 body {
   border: 1px solid #000;
 }
+.logo {
+  display: flex;
+  justify-content: top;
+  padding: 15px;
+}
 .logo-web {
   font-family: 'Raleway';
   font-weight: 700;
@@ -17,7 +22,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19px;
-  color: #000000;
+  color: black;
 }
 .nav-link {
   font-family: 'Roboto';
@@ -31,6 +36,8 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
+  font-style: normal;
+  margin-left: 50px;
 }
 .title-text {
   font-family: 'Roboto';
@@ -38,8 +45,7 @@ body {
   font-size: 44px;
   line-height: 1.36px;
   padding: 10px 32px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 .button {
   width: 216px;
@@ -51,6 +57,12 @@ body {
   padding: 10px 32px;
   border-radius: 4px;
   background-color: #188ce8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 .title-info {
   font-family: 'Roboto';
@@ -107,7 +119,7 @@ body {
   border-top: 2px solid red;
 }
 .container-2 {
-  width: 1600;
+  width: 1600px;
   padding-left: 215px;
   padding-right: 215px;
   margin-left: auto;
@@ -146,4 +158,22 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
+.contact-list {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin: 15px;
+}
+.nav-list-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-one {
+  width: 1600px;
+  height: 600px;
+  flex-shrink: 0;
+  background: rgba(47, 48, 58, 0.4);
+  background: url('..//Images/Img.jpg'), lightgray 0px -147.517px / 100% 170.667% no-repeat;
+  display: flex;
+}
